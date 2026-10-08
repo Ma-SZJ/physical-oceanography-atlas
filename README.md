@@ -11,7 +11,7 @@ https://ma-szj.github.io/physical-oceanography-atlas/
 - 沿岸俘获波的定义、时间尺度和空间尺度
 - 表面重力波、表面潮汐与沿岸俘获波的区别
 - 物理海洋学专题知识框架
-- 19 页 Coastal Trapped Waves 课件在线预览与下载
+- 19 页 Coastal Trapped Waves 课件在线预览，以及不含内嵌旁白的轻量版下载
 - 配套视频入口
 
 网站为纯静态 HTML，GitHub Actions 会把 `dist/` 自动部署到 GitHub Pages。

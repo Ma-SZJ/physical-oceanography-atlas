@@ -1,0 +1,6 @@
+render-source/
+ppt-contact-sheet.png
+*.tar.gz
+__pycache__/
+*.pyc
+

@@ -1,0 +1,8 @@
+water_mass,temperature_c,salinity,depth_m
+Surface,24.5,34.2,10
+Thermocline,18.1,34.8,200
+Central,12.0,35.1,500
+Intermediate,6.2,34.5,1200
+Deep,2.2,34.7,3000
+Bottom,0.8,34.68,5000
+

@@ -138,4 +138,7 @@ window.DPO_I18N={"，覆盖海盆地形、海水物性与全球温盐密度结�
 "06 · 懂动力":"06 · Grasp the dynamics",
 "地转流问答":"Geostrophic currents Q&A",
 "地转平衡、热成风与动力计算，核心公式一站看全。":"Geostrophic balance, thermal wind and dynamic computation — all the core formulas in one place.",
-"进入推导 →":"Start the derivation →"};
+"进入推导 →":"Start the derivation →",
+"查看":"View",
+"原图":"original figure",
+"打开":"Open"};

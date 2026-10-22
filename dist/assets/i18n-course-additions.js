@@ -161,6 +161,8 @@
     "所得方向应与箭头一致：湾流自佛州外海沿陆坡向东北流，与等值线平行。": "The inferred direction should match the arrows: the Gulf Stream flows northeastward from offshore Florida along the continental slope, parallel to the contours.",
     "记忆钩子：": "Memory hook:",
     "等值线是轨道，疏密给速度，右手定方向": "contours are the track, spacing gives speed, and the right-hand rule gives direction",
-    "（北半球高值永远在你的右手边）。垂向结构图同理：等密度面下倾方向配合 f 的正负即可定流速切变方向。": "(Northern Hemisphere high values stay on your right). For vertical sections, combine the direction of isopycnal slope with the sign of f to infer velocity shear."
+    "（北半球高值永远在你的右手边）。垂向结构图同理：等密度面下倾方向配合 f 的正负即可定流速切变方向。": "(Northern Hemisphere high values stay on your right). For vertical sections, combine the direction of isopycnal slope with the sign of f to infer velocity shear.",
+    "地形 Rossby 波基流方向": "Mean-flow direction for topographic Rossby waves",
+    "东向基流越过海底凸起形成背风 Rossby 波列的课堂示意图": "Lecture schematic of an eastward current forming a lee Rossby-wave train over a seafloor bump"
   });
 })();

@@ -3,10 +3,12 @@
 .lesson-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;align-items:start}
 .lesson-jump{position:sticky;top:86px;display:grid;gap:7px;padding:10px;border:1px solid #c5d6d1;background:#eef4f1}
 .lesson-jump button{display:flex;align-items:center;gap:12px;width:100%;padding:12px;border:0;color:#4c666c;background:transparent;cursor:pointer;text-align:left}
-.lesson-jump button span{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;color:#0b696d;background:#d7e8e3;font-size:.72rem;font-weight:900}
-.lesson-jump button b{font-size:.83rem}
+.lesson-jump button>span{display:grid;place-items:center;flex:0 0 32px;width:32px;height:32px;border-radius:50%;color:#0b696d;background:#d7e8e3;font-size:.72rem;font-weight:900}
+.lesson-jump button b{display:grid;gap:2px;font-size:.83rem}
+.week-marker{display:block;color:#237b7d;font-size:.61rem;font-style:normal;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
 .lesson-jump button.active,.lesson-jump button:hover{color:#fff;background:#0a4650}
-.lesson-jump button.active span,.lesson-jump button:hover span{color:#073c43;background:#6ad7cc}
+.lesson-jump button.active>span,.lesson-jump button:hover>span{color:#073c43;background:#6ad7cc}
+.lesson-jump button.active .week-marker,.lesson-jump button:hover .week-marker{color:#9dece4}
 .lesson-stack{display:grid;gap:12px}
 .lesson-card{border:1px solid #c3d2ce;background:#fff;box-shadow:0 12px 28px rgba(11,53,61,.05)}
 .lesson-card[open]{border-color:#5caea9;box-shadow:0 20px 44px rgba(11,53,61,.1)}
@@ -20,6 +22,7 @@
 .lesson-number{display:grid;place-items:center;min-width:62px;padding:8px;border-radius:3px;color:#fff;background:#137f81;font-size:.72rem;font-weight:900;letter-spacing:.04em}
 .lesson-doubt .lesson-number{color:#563c05;background:#efc65a}
 .lesson-body{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 22px 22px;border-top:1px solid #dce6e3}
+.lesson-question-title{grid-column:1/-1;margin:18px 0 0;padding:0 2px;color:#815b08;font:700 .83rem/1.4 Georgia,"Noto Serif SC",serif;letter-spacing:.03em}
 .lesson-body>div{padding:18px 16px;background:#f4f7f4}
 .lesson-body>div>span{color:#0d7779;font-size:.7rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
 .lesson-body p{margin:8px 0 0;color:#4c6268;line-height:1.75}
@@ -39,5 +42,5 @@
 .peer-status.pending{color:#70540d;background:#fbebba}
 .peer-status.saved{color:#0b5c55;background:#cceae2}
 .peer-note{margin:0;color:#718186;font-size:.72rem;line-height:1.5}
-@media(max-width:900px){.lesson-layout,.peer-review-card{grid-template-columns:1fr}.lesson-jump{position:static;grid-template-columns:repeat(4,minmax(0,1fr))}.lesson-jump button{justify-content:center}.lesson-jump b{display:none}.peer-review-card{gap:24px}}
+@media(max-width:900px){.lesson-layout,.peer-review-card{grid-template-columns:1fr}.lesson-jump{position:static;grid-template-columns:repeat(4,minmax(0,1fr))}.lesson-jump button{justify-content:center}.lesson-jump b>span:not(.week-marker){display:none}.lesson-jump .week-marker span{display:inline}.peer-review-card{gap:24px}}
 @media(max-width:640px){.class-notes{padding:82px 0}.lesson-jump{grid-template-columns:repeat(4,1fr)}.lesson-card>summary{grid-template-columns:auto 1fr;padding:16px 14px}.lesson-card>summary>i{display:none}.lesson-number{min-width:54px}.lesson-body{grid-template-columns:1fr;padding:0 14px 16px}.lesson-body>a{grid-column:auto}.peer-review{padding-bottom:82px}.peer-review-card{padding:22px 14px}.peer-form{padding:18px 14px}}

@@ -1,0 +1,103 @@
+:root{
+  --font-ui:"Segoe UI","Microsoft YaHei UI","Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif;
+  --font-reading:"Segoe UI","Microsoft YaHei UI","Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif;
+}
+
+html{font-size:17px}
+body{font-family:var(--font-reading);font-weight:400;letter-spacing:.005em;line-height:1.72;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+button,input,textarea,select{font-family:var(--font-ui)}
+h1,h2,h3,h4,h5,h6,
+.section-head h2,.chapter-detail h3,.definition blockquote,.qa-group-head h3,
+.figure-copy h3,.video-copy h3,.lab-card h3,.assignment-panel>h3,
+.content-index-grid b,.peer-copy h2,.lesson-card>summary b,.lesson-question-title,
+.chapter8-hero h2,.wave-qa-item h3,.wave-table-heading h3,
+.wave-visual-card h3,.wave-family-note h3{
+  font-family:var(--font-ui);
+  font-style:normal;
+  letter-spacing:-.015em;
+}
+
+h1{font-weight:800;line-height:1.04}
+.section-head h2{font-weight:780;line-height:1.14}
+.section-head p,.lede{font-size:1rem;line-height:1.8}
+.nav-links a{font-size:.96rem;font-weight:650}
+.brand{font-size:1.02rem}
+.button{font-size:.96rem}
+
+.kicker{font-size:.8rem;letter-spacing:.14em}
+.content-index-grid a>span,.figure-id,.lab-label,.assignment-status,
+.equation-label,.wave-table-heading>div>span,.family-eyebrow{font-size:.76rem}
+.content-index-grid small,.answer-note,.profile-card span,.textbook-note,
+.research-link,.download-row p,.data-note,.external-note,.peer-note{font-size:.86rem}
+.content-index-grid b{font-size:1.22rem;line-height:1.35}
+
+.qa-group-head p,.q-en,.topic span,.figure-copy>p,.figure-copy ul,
+.lab-meta span,.lab-notes,.method-step p,.spine-grid details p,
+.instrument-grid ul,.condition-grid ul,.equation-card p,.wave-answer p,
+.wave-family-note p,.compare-row p,.wave-card-summary>span{font-size:.9rem}
+.q-cn,.instrument-grid h4{font-size:1.04rem}
+.answer,.lesson-body p,.assignment-panel>p,.test-prompt,.model-answer-body{font-size:.97rem}
+.formula,.equation{font-size:1.02rem}
+.wave-family-table{font-size:.84rem}
+.wave-family-table thead th{font-size:.75rem}
+.wave-family-table tbody th b{font-size:.96rem}
+.wave-family-table code{font-size:.82rem}
+.source-list a,.lab-actions a,.wave-table-notes>span,.wave-table-notes>a,
+.wave-table-filters button,.wave-table-scope{font-size:.79rem}
+
+.lesson-jump button{min-height:62px;border-radius:8px;font-size:.94rem;line-height:1.35}
+.lesson-jump button b{min-width:0;font-size:.94rem;font-weight:750}
+.week-marker{width:auto!important;height:auto!important;border-radius:0!important;color:#217276!important;background:transparent!important;font-size:.72rem!important;line-height:1.25;letter-spacing:.05em}
+.week-marker span{display:inline;width:auto!important;height:auto!important;border-radius:0!important;color:inherit!important;background:transparent!important;font-size:inherit!important}
+.lesson-jump button.active .week-marker,.lesson-jump button:hover .week-marker{color:#a7eee7!important}
+.lesson-number{font-size:.78rem}
+.lesson-card>summary b{font-size:1.12rem;line-height:1.4}
+.lesson-card>summary small{font-size:.86rem}
+.lesson-question-title{font-size:.94rem;letter-spacing:0}
+.lesson-body>div>span{font-size:.78rem;letter-spacing:.05em}
+.lesson-body>a{font-size:.94rem}
+.peer-form>label{font-size:.86rem}
+.peer-status{font-size:.78rem}
+
+@media(max-width:900px){
+  html{font-size:16.5px}
+  .lesson-jump{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+  .lesson-jump button{padding:11px 9px}
+}
+
+@media(max-width:640px){
+  html{font-size:16px}
+  body{line-height:1.68}
+  .shell{width:min(100% - 24px,var(--max))}
+  .section-head{margin-bottom:38px}
+  .section-head h2{font-size:clamp(2rem,10vw,2.7rem)}
+  .section-head p,.lede{font-size:1rem;line-height:1.72}
+  .kicker{font-size:.76rem}
+
+  .lesson-layout{gap:18px}
+  .lesson-jump{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:8px}
+  .lesson-jump button{justify-content:flex-start;gap:9px;min-width:0;min-height:66px;padding:10px 9px}
+  .lesson-jump button>span{flex-basis:30px;width:30px;height:30px;font-size:.74rem}
+  .lesson-jump button b{display:grid;gap:2px;min-width:0;font-size:.86rem;line-height:1.25}
+  .lesson-jump b>span:not(.week-marker){display:inline;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .week-marker{font-size:.68rem!important;white-space:nowrap}
+  .lesson-card>summary{gap:11px;padding:17px 13px}
+  .lesson-number{min-width:58px;font-size:.75rem}
+  .lesson-card>summary b{font-size:1.04rem}
+  .lesson-card>summary small{font-size:.8rem}
+  .lesson-body{gap:10px}
+  .lesson-body>div{padding:16px 14px}
+  .lesson-body p{font-size:.96rem;line-height:1.72}
+  .lesson-question-title{font-size:.9rem}
+
+  .assignment-tabs button,.content-index-grid a{font-size:.96rem}
+  .qa-group-head h3{font-size:1.35rem}
+  .q-cn{font-size:1rem}
+  .answer{font-size:.96rem}
+  .figure-copy>p,.lab-card>p,.wave-answer p,.compare-row p{font-size:.92rem}
+}
+
+@media(max-width:360px){
+  .lesson-jump{grid-template-columns:1fr}
+  .lesson-jump button{min-height:58px}
+}

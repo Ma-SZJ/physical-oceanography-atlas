@@ -31,7 +31,7 @@
 
   function shouldSkip(node) {
     const parent = node.parentElement;
-    return !parent || Boolean(parent.closest('script, style, noscript, code, pre'));
+    return !parent || Boolean(parent.closest('script, style, noscript, code, pre, .zh-only, .en-only'));
   }
 
   function applyTextNode(node) {

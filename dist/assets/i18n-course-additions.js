@@ -164,6 +164,9 @@
     "（北半球高值永远在你的右手边）。垂向结构图同理：等密度面下倾方向配合 f 的正负即可定流速切变方向。": "(Northern Hemisphere high values stay on your right). For vertical sections, combine the direction of isopycnal slope with the sign of f to infer velocity shear.",
     "地形 Rossby 波基流方向": "Mean-flow direction for topographic Rossby waves",
     "东向基流越过海底凸起形成背风 Rossby 波列的课堂示意图": "Lecture schematic of an eastward current forming a lee Rossby-wave train over a seafloor bump",
-    "Kelvin 波与 Rossby 波长波对比": "Kelvin and Rossby long-wave comparison"
+    "Kelvin 波与 Rossby 波长波对比": "Kelvin and Rossby long-wave comparison",
+    "第八章波动四问四答": "Chapter 8 four questions and answers on waves",
+    "不同海洋波动特征对比表": "Comparison table of ocean-wave characteristics",
+    "波动类型筛选": "Wave-family filters"
   });
 })();
